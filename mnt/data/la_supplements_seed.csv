@@ -1,0 +1,5 @@
+la_name,country,entitlement_code,supplement_type,per,amount_pence,effective_from,notes
+Bristol City Council,England,WP30_3_4,deprivation,hour,60,01/04/2025,£0.60 per funded hour
+Bristol City Council,England,U15_3_4,meal,hour,20,01/04/2025,Snack contribution
+Surrey County Council,England,WP30_2,send,term,12000,01/04/2025,£120 per term
+Gloucestershire County Council,England,MT15_2,rural,hour,35,01/04/2025,Rural supplement

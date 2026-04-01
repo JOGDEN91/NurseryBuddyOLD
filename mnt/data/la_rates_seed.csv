@@ -1,0 +1,8 @@
+la_name,country,entitlement_code,effective_from,amount_pence,notes,source_url
+Gloucestershire County Council,England,U15_3_4,01/04/2025,520,Sample rate (placeholder),https://example.com/glos/rates
+Gloucestershire County Council,England,WP30_3_4,01/04/2025,610,Sample rate (placeholder),https://example.com/glos/rates
+Gloucestershire County Council,England,WP30_2,01/04/2025,590,Sample rate (placeholder),https://example.com/glos/rates
+Bristol City Council,England,U15_3_4,01/04/2025,530,Sample rate (placeholder),https://example.com/bristol/rates
+Bristol City Council,England,WP30_3_4,01/04/2025,620,Sample rate (placeholder),https://example.com/bristol/rates
+Surrey County Council,England,U15_3_4,01/04/2025,560,Sample rate (placeholder),https://example.com/surrey/rates
+Surrey County Council,England,WP30_2,01/04/2025,600,Sample rate (placeholder),https://example.com/surrey/rates

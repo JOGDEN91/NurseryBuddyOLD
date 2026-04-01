@@ -1,0 +1,47 @@
+/* app/globals.css */
+
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks */
+html, body { height: 100%; }
+body { @apply bg-brand-sand text-slate-800 antialiased; }
+
+/* Stack staff overview to a single column on small screens */
+@media (max-width: 980px) {
+  .staffOverviewGrid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Parent + Staff shared two-column layout helpers */
+.twoCol {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.leftCol {
+  flex: 1 1 66%;
+  min-width: 0;
+}
+.rightCol {
+  flex: 1 1 34%;
+  min-width: 280px; /* avoid collapsing cards */
+}
+
+/* Stack below 980px */
+@media (max-width: 980px) {
+  .twoCol {
+    flex-direction: column;
+  }
+  .rightCol {
+    min-width: 0;
+  }
+}
+
+/* Helpful, optional utilities */
+a { @apply text-brand-green hover:underline; }
+.card { @apply bg-white border border-slate-200 rounded-xl p-4; }
+.btn  { @apply inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-brand-green text-white hover:bg-emerald-700 disabled:opacity-50; }
